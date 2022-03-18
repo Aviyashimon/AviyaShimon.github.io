@@ -12,8 +12,8 @@
     <script src="jquery-1.11.1.min.js"></script>
 </head>
 <body>
-<!-- added or removed asynchronously -->
-<script>
+    <!-- added or removed asynchronously -->
+    <script>
         function onClick() {
             disableButton();
             clearMessage();
@@ -61,8 +61,8 @@
         };
     </script>
 
-<!-- The element is hidden -->
-<script>
+    <!-- The element is hidden -->
+    <script>
     $(function () {
         $('#start1 button').click(function () {
             $('#start1').hide();
@@ -75,8 +75,8 @@
     });
     </script>
 
-<!-- Element on page that is rendered -->
-<script>
+    <!-- Element on page that is rendered -->
+    <script>
     $(function () {
         $('#start2 button').click(function () {
             $('#start2').hide();
@@ -90,80 +90,80 @@
     });
     </script>
 
-<div id="header">
-
-    <div class="container">
-
-
-    </div> <!-- END .container -->
-
-</div> <!-- END #header -->
-
-<div id="main_content">
-
-    <div id="contact_area">
+    <div id="header">
 
         <div class="container">
 
-            <h2 id="title">Synchronization</h2>
-
-            <div id="contact_info">
-
-                <div id="contact_info_left">
-                    <form>
-                        <button autocomplete="off" type="button" id="btn" onclick="onClick()">remove checkbox</button>
-                        <div id="checkbox">
-                            <input type="checkbox" id="checkbox" /> Checkbox
-                        </div>
-
-                    </form>
-                    <br /><br /><br /><br />
-
-                    The element is hidden <br /><br />
-                    <div id='start1'>
-                        <button id="hidden">Show hidden</button>
-                    </div>
-
-                    <div id='finish1' style='display:none'>
-                        <h4>My Hidden Element!</h4>
-                    </div>
-
-                    <br /><br /><br /><br />
-                    New element will show<br /><br />
-                    <div id='start2'>
-                        <button id="rendered">render</button>
-                    </div>
-
-                </div> <!-- END #contact_info_left -->
-
-            </div> <!-- END #contact_info -->
 
         </div> <!-- END .container -->
 
-    </div> <!-- END #contact_area -->
+    </div> <!-- END #header -->
 
-</div> <!-- END #main_content -->
+    <div id="main_content">
 
-<div id="footer">
+        <div id="contact_area">
 
-    <div class="container">
+            <div class="container">
+
+                <h2 id="title">Synchronization</h2>
+
+                <div id="contact_info">
+
+                    <div id="contact_info_left">
+                        <form>
+                            <button autocomplete="off" type="button" id="btn" onclick="onClick()">remove checkbox</button>
+                            <div id="checkbox">
+                                <input type="checkbox" id="checkbox" /> Checkbox
+                            </div>
+
+                        </form>
+                        <br /><br /><br /><br />
+
+                        The element is hidden <br /><br />
+                        <div id='start1'>
+                            <button id="hidden">Show hidden</button>
+                        </div>
+
+                        <div id='finish1' style='display:none'>
+                            <h4>My Hidden Element!</h4>
+                        </div>
+
+                        <br /><br /><br /><br />
+                        New element will show<br /><br />
+                        <div id='start2'>
+                            <button id="rendered">render</button>
+                        </div>
+
+                    </div> <!-- END #contact_info_left -->
+
+                </div> <!-- END #contact_info -->
+
+            </div> <!-- END .container -->
+
+        </div> <!-- END #contact_area -->
+
+    </div> <!-- END #main_content -->
+
+    <div id="footer">
+
+        <div class="container">
 
 
-    </div> <!-- END #footer_about -->
+            </div> <!-- END #footer_about -->
 
-    <div id="footer_connect" class="footer_info">
+            <div id="footer_connect" class="footer_info">
 
+           
 
-
-
-
-
-    </div> <!-- END #footer_about -->
+        
 
 
-</div> <!-- END .container -->
+            </div> <!-- END #footer_about -->
 
-</div> <!-- END #footer -->
+
+        </div> <!-- END .container -->
+
+    </div> <!-- END #footer -->
 
 </body>
 </html>
